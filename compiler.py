@@ -6,10 +6,10 @@ from random import randint
 with open("code.ratcl", "r") as f:
 	lines = [line.strip().split(" ") for line in f]
 
-# make the code one line and seperated by spaces (ca -aii -aoi)
+# make the code one line and seperated by spaces (e.g. ca -aii -aoi)
 code = " ".join([" ".join(line) for line in lines]).split(" ")
 
-stacks = {} # starts empty, so you have to create one yourself every time
+stacks = {} # starts empty, so you have to create one yourself at the start or else you basically can't do anything
 output = ""
 line = 0
 cmdIndex = 0
