@@ -270,7 +270,7 @@ while line < len(code):
                         error("stackError/notEnoughItems: You need a line number to jump to and another number as whether to do it or not.")
 
                     if tempX != 0:
-                        line = tempY - 2  # Subtract 2 because the line number in the code is 0-indexed
+                        line = tempY - 2 # Subtract 2 because the line number in the code is 0-indexed
                     else:
                         line += 1
                         cmdIndex = 0
