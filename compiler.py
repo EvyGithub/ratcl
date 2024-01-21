@@ -24,7 +24,7 @@ while line < len(code):
 	# print(line)
 	try:
 		while cmdIndex < len(code[line]):
-			cmd = code[line][cmdIndex]; print(cmd)
+			cmd = code[line][cmdIndex]; # print(cmd)
 			
 			# Get* the left and right side parameters
 			# * Tries to get the left and right side parameters
